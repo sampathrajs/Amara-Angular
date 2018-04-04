@@ -6,6 +6,7 @@ import {FacilitiesComponent} from '../facilities/facilities.component';
 import {AboutComponent} from '../about/about.component';
 import {ContactComponent} from '../contact/contact.component';
 import {GalleryComponent} from '../gallery/gallery.component';
+import {TestComponent} from '../test/test.component';
 
 const routes: Routes =[
   { path:'home',component:HomeComponent},  
@@ -13,7 +14,7 @@ const routes: Routes =[
    { path:'gallery',component:GalleryComponent},
    { path:'contact',component:ContactComponent},  
    { path:'about',component:AboutComponent},  
-  // { path:'album',component:AlbumComponent},    
+   { path:'test',component:TestComponent},    
   { path:'',redirectTo: 'home', pathMatch: 'full' },   
   ];
 @NgModule({
