@@ -13,7 +13,8 @@ import { FacilitiesComponent } from './facilities/facilities.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
-import { SafeUrlPipe } from './safe-url.pipe'
+import { SafeUrlPipe } from './safe-url.pipe';
+import { TestComponent } from './test/test.component'
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { SafeUrlPipe } from './safe-url.pipe'
     AboutComponent,
     ContactComponent,
     GalleryComponent,
-    SafeUrlPipe
+    SafeUrlPipe,
+    TestComponent
   ],
   imports: [
     BrowserModule,AppRoutingModule,AgmCoreModule.forRoot({
